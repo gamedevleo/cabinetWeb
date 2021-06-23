@@ -6,10 +6,15 @@ export const Menu = ()=>{
   return (
     <div className='menu'>
       <img src={logo} alt='logo'/>
+      <div className='menu_name'>
+        <h2>Inhome Cabinet</h2>
+        <p>Aluminium & Glass doors</p>
+      </div>
+
       <div className='menu_items'>
-        <h3>Home</h3>
-        <h3>About US</h3>
-        <h3>Showcase</h3>
+        <p>Home</p>
+        <p>About US</p>
+        <p>Showcase</p>
       </div>
     </div>
   )
