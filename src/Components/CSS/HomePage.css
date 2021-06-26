@@ -1,0 +1,65 @@
+.homepage{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+}
+.homepage header{
+  flex:1;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.homepage header img{
+  width: 100%;
+  height:auto;
+}
+
+
+.homepage .homepage_content{
+  flex:8;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  margin:20px;
+  padding: 20px;
+}
+.homepage .homepage_content .homepage_classification{
+  position: relative;
+}
+
+.homepage_classification_title{
+  position: relative;
+  background:rgb(255, 177, 134);
+  font-size: 40px;
+}
+
+.homepage_classification_title::before{
+  content:'';
+  width: 100px;
+  height:1px;
+  background-color:red;
+  position: absolute;
+  right: 35%;
+  top:50%;
+}
+.homepage_classification_title::after{
+  content:'';
+  width: 100px;
+  height:1px;
+  background-color:red;
+  position: absolute;
+  left:35%;
+  top:50%;
+}
+.homepage_classification_items{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
