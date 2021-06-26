@@ -1,8 +1,20 @@
 .footer{
+<<<<<<< HEAD
   width: 100%;
   background-color: #ddd;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+=======
+  flex:1;
+  display: flex;
+  width: 100%;
+  height:20%;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: black;
+>>>>>>> 78918d35aaec3a104974faecc1762464f4275759
 }

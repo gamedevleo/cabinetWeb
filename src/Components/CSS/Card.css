@@ -1,6 +1,9 @@
 .card{
   position: relative;
+<<<<<<< HEAD
   flex:1;
+=======
+>>>>>>> 78918d35aaec3a104974faecc1762464f4275759
   width:100%;
   height:300px;
   margin: 10px;
@@ -11,7 +14,10 @@
 }
 
 .card h3{
+<<<<<<< HEAD
   display: none;
+=======
+>>>>>>> 78918d35aaec3a104974faecc1762464f4275759
   position: absolute;
   margin: 10px;
   padding: 10px;
@@ -27,7 +33,11 @@
 }
 
 .card .parent{
+<<<<<<< HEAD
   width: 400px;
+=======
+  width:300px;
+>>>>>>> 78918d35aaec3a104974faecc1762464f4275759
   height: 300px;
   overflow: hidden;
 }
