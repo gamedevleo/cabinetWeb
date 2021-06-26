@@ -1,14 +1,7 @@
 .info {
   display: flex;
-<<<<<<< HEAD
   width:100%;
   flex-direction:row;
-=======
-  width:450px;
-  flex-direction:row;
-  background: yellow;
->>>>>>> 78918d35aaec3a104974faecc1762464f4275759
-  justify-content: space-between;
 }
 
 .info p{

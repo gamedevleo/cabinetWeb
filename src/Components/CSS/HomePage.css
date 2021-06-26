@@ -34,11 +34,8 @@
 
 .homepage_classification_title{
   position: relative;
-<<<<<<< HEAD
   background:rgb(255, 177, 134);
   font-size: 40px;
-=======
->>>>>>> 78918d35aaec3a104974faecc1762464f4275759
 }
 
 .homepage_classification_title::before{
@@ -60,14 +57,9 @@
   top:50%;
 }
 .homepage_classification_items{
-<<<<<<< HEAD
   width:100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-=======
-  display: flex;
-  justify-content:space-around;
->>>>>>> 78918d35aaec3a104974faecc1762464f4275759
   align-items: center;
 }
