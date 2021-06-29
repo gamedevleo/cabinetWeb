@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import headerImg from '../images/headerImg.jpg';
 import Footer from './Footer';
 import Showcase from './Showcase';
@@ -29,8 +31,9 @@ const HomePage =()=>{
         <Showcase title='Kitchen' img1={kitchen2} img2={kitchen4} img3={kitchen9} img4={kitchen10}/>
         <Showcase title='Wardrobe' img1={wardrobe25} img2={wardrobe26} img3={wardrobe29} img4={wardrobe32}/>
         <Showcase title='WineCabinet' img1={wineCabinet8} img2={wineCabinet9} img3={wineCabinet12} img4={wineCabinet14}/>
+        <Showcase title='BBQ' img1={wineCabinet8} img2={wineCabinet9} img3={wineCabinet12} img4={wineCabinet14}/>
+        <Showcase title='Material' img1={wineCabinet8} img2={wineCabinet9} img3={wineCabinet12} img4={wineCabinet14}/>
       </div>
-      <Footer />
     </div>
   )
 }
